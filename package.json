@@ -1,0 +1,24 @@
+{
+  "name": "edge-bound-backend",
+  "version": "0.0.1",
+  "description": "backend prueba técnica",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/index.js -d dist",
+    "start": "babel-node src/index.js",
+    "dev": "babel-node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "Einer Bravo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.3"
+  }
+}

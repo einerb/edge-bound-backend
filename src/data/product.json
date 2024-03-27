@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "name": "Samsung Galaxy",
+      "category": "electronics"
+    },
+    {
+      "name": "Motorola V3",
+      "category": "electronics"
+    },
+    {
+      "name": "Iphone 12",
+      "category": "electronics"
+    },
+    {
+      "name": "Skippy",
+      "category": "grocery store"
+    },
+    {
+      "name": "Tablet Huawei",
+      "category": "electronics"
+    },
+    {
+      "name": "Poco X3 Pro",
+      "category": "electronics"
+    }
+  ]
+}
