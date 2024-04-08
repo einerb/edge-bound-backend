@@ -12,6 +12,7 @@
     "resolveJsonModule": true,
     "noUnusedLocals": true,
     "outDir": "./dist",
+    "baseUrl": "./",
     "paths": {
       "@shared/*": ["src/shared/*"],
       "@domain/*": ["src/products/domain/*"],

@@ -5,7 +5,7 @@ import express, { Express } from "express";
 
 import { config } from "@shared/infrastructure/config";
 import { productRouter } from "@infrastructure/rest-api/product/product-router";
-/* import { homeRouter } from "@infrastructure/rest-api/home/home-router"; */
+import { homeRouter } from "@infrastructure/rest-api/home/home-router";
 
 export class Server {
   private readonly app: Express;
@@ -15,7 +15,7 @@ export class Server {
     this.app = express();
     this.app.use(express.json());
     this.app.use(bodyParser.json());
-    /* this.app.use("/", homeRouter); */
+    this.app.use("/", homeRouter);
     this.app.use("/products", productRouter);
   }
 
